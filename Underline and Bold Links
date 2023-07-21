@@ -1,0 +1,10 @@
+ /* Adds underline to text links in body content */
+.inside-article a:link {
+  text-decoration: underline;
+	font-weight: bold;
+}
+
+/* Bolds text links on hover */
+a:link:hover, a:link:focus {
+	font-weight: bold;
+}
